@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   useEffect(() => {
-    document.body.style.backgroundImage = "url('/images/background.webp')";
+    document.body.style.backgroundImage = "url('https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp')";
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center';
     document.body.style.backgroundRepeat = 'no-repeat';

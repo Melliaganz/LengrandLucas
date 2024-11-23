@@ -40,14 +40,6 @@ const projects = [
       image: '/images/logoGroupomania.webp',
     },
     {
-      title: 'Hot Ones - Piquante',
-      description: 'API sécurisée pour une application de critiques de sauces piquantes.',
-      technologies: ['Node.js', 'Express', 'MongoDB', 'Mongoose'],
-      liveLink: 'https://piquante-c0opxjtej-melliaganz.vercel.app/login',
-      githubLink: 'https://github.com/Melliaganz/Piquante',
-      image: '/images/logoHotOnes.webp',
-    },
-    {
       title: 'Kanap',
       description: 'Plateforme e-commerce pour vendre des canapés avec intégration d\'API REST.',
       technologies: ['JavaScript', 'HTML', 'CSS'],

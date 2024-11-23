@@ -17,13 +17,15 @@ const NavbarLinks = styled.div`
 
 const Navbar = () => {
   return (
-    <NavbarContainer>
+    <NavbarContainer style={{display: 'flex', flexDirection:'row', alignItems:'center'}}>
+      <a href="/" title='Accueil'>
       <h1>Lengrand Lucas</h1>
-      <NavbarLinks>
-        <Link to="/">Accueil</Link>
-        <Link to="/projects">Projets</Link>
-        <Link to="/skills">Compétences</Link>
-        <Link to="/contact">Contact</Link>
+      </a>
+      <NavbarLinks >
+        <Link to="/" title='Accueil'>Accueil</Link>
+        <Link to="/projects" title='Projets'>Projets</Link>
+        <Link to="/skills"title='Compétences'>Compétences</Link>
+        <Link to="/contact"title='Contacts'>Contacts</Link>
       </NavbarLinks>
     </NavbarContainer>
   );
